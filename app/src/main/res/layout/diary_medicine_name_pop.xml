@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:fitsSystemWindows="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="170dp">
+
+        <RadioGroup
+            android:id="@+id/redioGroup_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:tag="0"
+                android:text="@string/medicine1" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:tag="1"
+                android:text="@string/medicine2" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:tag="2"
+                android:text="@string/medicine3" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:tag="3"
+                android:text="@string/medicine4" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:tag="4"
+                android:text="@string/medicine5" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:tag="5"
+                android:text="@string/medicine6" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:tag="6"
+                android:text="@string/medicine7" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:tag="7"
+                android:text="@string/medicine8" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:tag="8"
+                android:text="@string/medicine9" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:tag="9"
+                android:text="@string/medicine10" />
+
+        </RadioGroup>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cancel_ID"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_weight="1"
+            android:text="取消" />
+
+        <Button
+            android:id="@+id/confirm_ID"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:text="确定" />
+    </RelativeLayout>
+</LinearLayout>

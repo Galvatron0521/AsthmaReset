@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">哮喘管理</string>
+    <string name="action_settings">设置</string>
+    <string name="home">首页</string>
+    <string name="personal_center">个人中心</string>
+
+    <string name="menu_settings">Settings</string>
+    <string name="weather">天气</string>
+    <string name="clock">用药提醒</string>
+    <string name="asthmaKnowledge">哮喘知识</string>
+    <string name="questionnaire">问卷调查</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="prompt">内容</string>
+    <string name="title">标题</string>
+    <string name="space1">关闭</string>
+    <string name="space2">3小时</string>
+    <string name="space3">6小时</string>
+    <string name="space4">12小时</string>
+    <string name="pull_door_text">上滑进入首页</string>
+
+    <!-- 个人中心-->
+    <string name="patient_name">姓名</string>
+    <string name="patient_sex">性别</string>
+    <string name="patient_age">年龄</string>
+    <string name="patient_bedNO">床号</string>
+    <string name="patient_identity_card">身份证号</string>
+    <string name="patient_height">身高</string>
+    <string name="patient_weight">体重</string>
+    <string name="patient_phone">电话</string>
+    <string name="patient_zip_code">邮编</string>
+    <string name="patient_address">住址</string>
+    <string name="patient_company">单位</string>
+    <string name="patient_hospital">就诊医院</string>
+    <string name="patient_describe">诊断</string>
+
+    <string name="patient_logout">退出登录</string>
+
+    <!-- 闹铃 -->
+    <string name="title_activity_lead4">Lead4Activity</string>
+    <string name="clock_repeat">重复</string>
+    <string name="clock_interval">间隔</string>
+    <string name="clock_ring">铃声</string>
+    <string name="clock_Label">标签</string>
+    <string name="clock_clock">闹钟</string>
+    <string name="clock_add">添加闹钟</string>
+    <string name="clock_delete">删除闹钟</string>
+    <string name="clock_save">确定</string>
+
+    <string name="ring1">雨的秘密轻轻告诉你</string>
+    <string name="ring2">蓝调口琴</string>
+    <string name="ring3">天空之城</string>
+    <string name="ring4">令你慢慢睁开疏松双眼</string>
+    <string name="ring5">爵士铃声</string>
+    <string name="ring6">清脆铃声</string>
+    <string name="ring7">棉花糖钢琴曲</string>
+    <string name="ring8">伤心吉他</string>
+    <string name="ring9">鸟之诗</string>
+    <string name="ring10">特效</string>
+
+    <!-- 天气 -->
+    <string name="net_work_error">网络不给力...</string>
+    <string name="patient_info">患者信息</string>
+
+    <!--周 -->
+
+    <string name="Monday">周一</string>
+    <string name="Tuesday">周二</string>
+    <string name="Wednesday">周三</string>
+    <string name="Thursday">周四</string>
+    <string name="Friday">周五</string>
+    <string name="Saturday">周六</string>
+    <string name="Sunday">周日</string>
+
+    <string name="keSou">咳嗽</string>
+    <string name="ChuanXi">喘息</string>
+    <string name="qiJi">气急</string>
+    <string name="xiongMen">胸闷</string>
+    <string name="nightAsthma">夜间因哮喘憋醒</string>
+    <string name="asthmaActivity">哮喘使日常活动受到影响</string>
+
+    <string name="useTimes">使用次数</string>
+
+    <string name="bottomEachDose">每次用量</string>
+    <string name="bottomUseTimes">每日使用次数</string>
+
+
+    <string name="sectionNameTop">哮喘症状</string>
+    <string name="sectionNameMiddle">因症状加重加吸的药物</string>
+    <string name="sectionNameBottom">每天早晚按时使用的药物</string>
+
+
+    <string name="medicine1">硫酸沙丁胺醇气雾剂</string>
+    <string name="medicine2">吸入用异丙托溴铵溶液</string>
+    <string name="medicine3">塞托溴铵粉雾剂(含吸入器)</string>
+    <string name="medicine4">氨茶碱注射液</string>
+    <string name="medicine5">茶碱缓释胶囊Ⅱ</string>
+    <string name="medicine6">吸入用布地奈德混悬液</string>
+    <string name="medicine7">布地奈德福莫特罗粉吸入剂</string>
+    <string name="medicine8">沙美特罗替卡松粉吸入剂</string>
+    <string name="medicine9">孟鲁司特钠片</string>
+    <string name="medicine10">注射用甲泼尼龙琥珀酸钠</string>
+
+
+</resources>

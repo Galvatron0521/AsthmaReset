@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    style="@style/CustomDialog"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/clock_dialog_tag"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_38"
+        android:layout_marginTop="@dimen/margin_15"
+        android:gravity="center_horizontal|center_vertical"
+        android:singleLine="true"
+        android:text="@string/clock_clock"
+        android:textColor="@color/practice_test_result_text"
+        android:textSize="@dimen/text_size_18" />
+
+    <TextView
+        android:id="@+id/clock_dialog_alarm"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_48"
+        android:gravity="center_horizontal|center_vertical"
+        android:singleLine="true"
+        android:text="18:00"
+        android:layout_below="@+id/clock_dialog_tag"
+        android:textColor="@color/gray"
+        android:layout_marginBottom="@dimen/margin_20"
+        android:textSize="@dimen/text_size_38" />
+
+    <TextView
+        android:id="@+id/clock_dialog_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/clock_dialog_alarm"
+        android:background="@color/practice_test_result_text" />
+
+    <TextView
+        android:id="@+id/clock_dialog_ok"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_48"
+        android:background="@color/subscribe_item_drag_bg"
+        android:gravity="center_horizontal|center_vertical"
+        android:paddingBottom="@dimen/home_menu_margin_5"
+        android:paddingTop="@dimen/home_menu_margin_5"
+        android:text="@string/ok"
+        android:layout_below="@+id/clock_dialog_line"
+        android:textColor="@color/theme_background"
+        android:textSize="@dimen/text_size_22" />
+
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="blue">#ff0055ff</color>
+    <color name="mBlue">#56abe4</color>
+    <color name="txtBlue">#3CABF3</color>
+    <color name="txtAsh">#CDCDCB</color>
+    <color name="dark_grey">#272636</color>
+    <color name="light_grey">#ffe6e6e6</color>
+    <color name="subscribe_item_selected_stroke">#ffcc3131</color>
+    <color name="subscribe_item_text_color_pressed">#ffb9b9b9</color>
+    <color name="default_text">#ff454545</color>
+    <color name="subscribe_item_drag_stroke">#ffd2d2d2</color>
+    <color name="subscribe_item_drag_bg">#fff5f5f5</color>
+    <color name="subscribe_item_selected_bg">#ffffffff</color>
+    <color name="subscribe_item_disabled_stroke">#ffd9d9d9</color>
+    <color name="subscribe_item_disabled_bg">#ffefefef</color>
+    <color name="subscribe_item_pressed_stroke">#ffcdcdcd</color>
+    <color name="subscribe_item_pressed_bg">#fff9f9f9</color>
+    <color name="subscribe_item_normal_stroke">#ffcdcdcd</color>
+    <color name="subscribe_item_normal_bg">#fff5f5f5</color>
+    <color name="Monday">#ffd56020</color>
+    <color name="light_gray">#ffe6e6e6</color>
+    <color name="light_gray_bg">#ecf0f1</color>
+    <color name="black">#000000</color>
+    <color name="gray">#ff636363</color>
+    <color name="gray_text">#666666</color>
+    <color name="white">#ffffffff</color>
+    <color name="dialog_background">#eff0ff</color>
+    <color name="btn_blue_normal">#1e90ff</color>
+    <color name="btn_blue_pressed">#0066FF</color>
+    <color name="text_yellow_normal">#FFA54F</color>
+    <color name="text_yellow_pressed">#FF7F00</color>
+    <color name="btn_gray_normal">#c0c0c0</color>
+    <color name="btn_gray_pressed_status">#b5b5b6</color>
+    <color name="vote_submit_orange">#ff864e</color>
+    <color name="deep_green">#ff69a9b7</color>
+    <color name="red">#eb4f38</color>
+    <color name="theme_background">#56abe4</color>
+    <color name="practice_test_result_text">#9a9a9a</color>
+    <color name="sysBar">#00a0e9</color>
+    <color name="ActionButton">#0096A4</color>
+
+    <!--哮喘日记  -->
+    <color name="diary_top">#bd6559</color>
+    <color name="diary_middle">#cf8560</color>
+    <color name="diary_bottom">#7aa66b</color>
+    <color name="Primary">#ffb629</color>
+    <color name="PrimaryDark">#ffb629</color>
+    <color name="Accent">#FF4081</color>
+</resources>

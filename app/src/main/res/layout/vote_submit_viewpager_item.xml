@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cellbg">
+
+    <TextView
+        android:id="@+id/vote_submit_title"
+        style="@style/vote_submit_title"
+        android:layout_width="match_parent"
+        android:text="&lt;设置问卷调查标题>"
+        android:visibility="gone" />
+
+
+    <RelativeLayout
+        android:id="@+id/vote_submit_relative"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:orientation="horizontal"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp">
+
+        <LinearLayout
+            android:id="@+id/vote_submit_linear_previous"
+            style="@style/vote_submit_btn_linear"
+            android:layout_alignParentLeft="true"
+            android:visibility="gone">
+
+            <ImageView
+                style="@style/vote_submit_btn_image"
+                android:src="@drawable/xiangzuo"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shangyiti"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/vote_submit_linear_next"
+            style="@style/vote_submit_btn_linear"
+            android:layout_alignParentRight="true"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/vote_submit_next_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/xiayiti" />
+
+            <ImageView
+                android:id="@+id/vote_submit_next_image"
+                style="@style/vote_submit_btn_image"
+                android:src="@drawable/xiangyou" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/vote_submit_relative"
+
+        android:layout_margin="15dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/vote_submit_question"
+            style="@style/vote_submit_question"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:text="你需要调查的问题？" />
+        <!-- 单选 -->
+
+        <LinearLayout
+            android:id="@+id/activity_prepare_test_radioBtnLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/activity_prepare_test_layout_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="8dip">
+                <!--android:background="@drawable/answer_choose_bg"-->
+
+
+                <ImageView
+                    android:id="@+id/vote_submit_select_image_a"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/vote_submit_normal" />
+
+                <ImageView
+                    android:id="@+id/vote_submit_select_image_a_"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/vote_submit_selected"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/vote_submit_select_text_a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dip"
+                    android:text="您给出的回答选项？"
+                    android:textColor="@color/practice_test_result_text"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/activity_prepare_test_layout_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="8dip">
+
+                <ImageView
+                    android:id="@+id/vote_submit_select_image_b"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/vote_submit_normal" />
+
+                <ImageView
+                    android:id="@+id/vote_submit_select_image_b_"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/vote_submit_selected"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/vote_submit_select_text_b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dip"
+                    android:text="您给出的回答选项？"
+                    android:textColor="@color/practice_test_result_text"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/activity_prepare_test_layout_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="8dip">
+
+                <ImageView
+                    android:id="@+id/vote_submit_select_image_c"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/vote_submit_normal" />
+
+                <ImageView
+                    android:id="@+id/vote_submit_select_image_c_"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/vote_submit_selected"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/vote_submit_select_text_c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dip"
+                    android:text="您给出的回答选项？"
+                    android:textColor="@color/practice_test_result_text"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/activity_prepare_test_layout_d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="8dip">
+
+                <ImageView
+                    android:id="@+id/vote_submit_select_image_d"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/vote_submit_normal" />
+
+                <ImageView
+                    android:id="@+id/vote_submit_select_image_d_"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/vote_submit_selected"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/vote_submit_select_text_d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dip"
+                    android:text="您给出的回答选项？"
+                    android:textColor="@color/practice_test_result_text"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/activity_prepare_test_layout_e"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="8dip">
+
+                <ImageView
+                    android:id="@+id/vote_submit_select_image_e"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/vote_submit_normal" />
+
+                <ImageView
+                    android:id="@+id/vote_submit_select_image_e_"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/vote_submit_selected"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/vote_submit_select_text_e"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dip"
+                    android:text="您给出的回答选项？"
+                    android:textColor="@color/practice_test_result_text"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

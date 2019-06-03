@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Questions>
+	<Question>
+		<title>一、在过去的4周内， 在工作中、学习或家中，有多少时间哮喘妨碍您进行日常活动?</title>
+		<Options>
+			<option>所有时间</option>
+			<option>绝大部分时间</option>
+			<option>有些时候</option>
+			<option>很少时候</option>
+			<option>没有</option>
+			<!--<option>绝大多数时候</option>-->
+			<!--<option>因哮喘而无法入睡</option>-->
+		</Options>
+	</Question>
+	
+	<Question>
+		<title>二、在过去的4周内，您有多少次呼吸困难？</title>
+		<Options>
+			<option>每天不止一次</option>
+			<option>一天一次</option>
+			<option>每周三至六次</option>
+			<option>每周一至两次</option>
+			<option>完全没有</option>
+			<!--<option>严重的症状</option>-->
+			<!--<option>很严重的症状</option>	-->
+		</Options>
+	</Question>
+	<Question>
+		<title>三、在过去的4周内，因为哮喘症状(喘息、咳嗽、呼吸困难、胸闷或疼痛)，您有多少次在夜间醒来或早上比平时早醒？</title>
+		<Options>
+			<option>每周四晚或更多</option>
+			<option>每周两至三晚</option>
+			<option>每周一次</option>
+			<option>一至两次</option>
+			<option>没有</option>
+			<!--<option>极度受限制</option>-->
+			<!--<option>完全受限制</option>	-->
+		</Options>
+	</Question>
+	<Question>
+		<title>四、在过去的4周内，您有多少次使用急救药物治疗(如沙丁胺醇)？</title>
+		<Options>
+			<option>每天三次以上</option>
+			<option>每天一至两次</option>
+			<option>每周2至3次</option>
+			<option>每周一次或以下</option>
+			<option>没有</option>
+			<!--<option>很严重呼吸困难</option>-->
+			<!--<option>非常严重的呼吸困难</option>	-->
+		</Options>
+	</Question>
+	<Question>
+		<title>五、您如何评估过去4周内您的哮喘控制情况？</title>
+		<Options>
+			<option>没有控制</option>
+			<option>控制很差</option>
+			<option>有所控制</option>
+			<option>受控良好</option>
+			<option>完全控制</option>
+			<!--<option>绝大部分时间</option>-->
+			<!--<option>所有时间</option>	-->
+		</Options>
+	</Question>
+</Questions>
